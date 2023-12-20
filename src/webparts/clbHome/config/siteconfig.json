@@ -1,6 +1,6 @@
 {
   "inclusionPath": "sites",
-  "sitename": "ChampionManagementPlatform",
+  "sitename": "CollaborationChampionsNetwork",
   "libraries": [
     {
       "listName": "Digital Badge Assets",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "listName": "Events List",
+      "listName": "Activity List",
       "columns": [
         {
           "name": "Points",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "listName": "Event Track Details",
+      "listName": "Activity Track Details",
       "columns": [
         {
           "name": "MemberId",
@@ -105,7 +105,7 @@
           "type": "number"
         },
         {
-          "name": "DateofEvent",
+          "name": "DateofActivity",
           "type": "dateTime"
         },
         {
@@ -113,7 +113,7 @@
           "type": "text"
         },
         {
-          "name": "EventName",
+          "name": "ActivityName",
           "type": "text"
         },
         {
@@ -138,9 +138,9 @@
   ],
   "eventsMasterData": [
     {
-      "Title": "Event Moderator",
+      "Title": "Activity Moderator",
       "Points": 10,
-      "Description": "Event Moderator"
+      "Description": "Activity Moderator"
     },
     {
       "Title": "Office Hours",
@@ -160,7 +160,7 @@
   ],
   "configMasterData": [
     {
-      "Title": "ChampionEventApprovals",
+      "Title": "ChampionActivityApprovals",
       "Value": "Disabled"     
     },
     {
