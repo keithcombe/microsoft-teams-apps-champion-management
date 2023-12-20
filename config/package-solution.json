@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "championmanagement",
+    "name": "ccollaborationchampions",
     "id": "5099a3ef-113f-4baf-bb6a-a73b1dd286f8",
     "version": "2.4.0.0",
     "includeClientSideAssets": true,
