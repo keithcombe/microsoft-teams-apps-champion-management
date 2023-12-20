@@ -23,6 +23,14 @@
         "resource": "Microsoft Graph",
         "scope": "Sites.Manage.All"
       }
+    ],
+    "features": [
+      {
+        "title": "clb Feature",
+        "description": "The feature that activates elements of the clb solution.",
+        "id": "156a91fd-cf1a-4a55-b141-3322edd8d251",
+        "version": "1.0.0.0"
+      }
     ]
   },
   "paths": {

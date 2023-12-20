@@ -9,12 +9,21 @@
           "manifest": "./src/webparts/clbHome/ClbHomeWebPart.manifest.json"
         }
       ]
+    },
+    "cmp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cmp/CmpWebPart.js",
+          "manifest": "./src/webparts/cmp/CmpWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "ClbHomeWebPartStrings": "lib/webparts/clbHome/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "CmpWebPartStrings": "lib/webparts/cmp/loc/{locale}.js"
   }
 }
